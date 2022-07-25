@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#00104C"
+    android:orientation="vertical"
+    tools:context="com.insidegh.nightingaleapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/ad" />
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00104C"
+                    android:padding="5dp"
+                    android:orientation="vertical">
+
+
+
+                    <Button
+                        android:id="@+id/Button03"
+                        android:background="#ffffff"
+                        android:layout_margin="5dp"
+                        android:textColor="#00104C"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Online Application"/>
+
+                    <Button
+                        android:id="@+id/Button02"
+                        android:background="#ffffff"
+                        android:layout_margin="5dp"
+                        android:textColor="#00104C"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Student Portal"  />
+
+                    <Button
+                        android:layout_margin="5dp"
+                        android:id="@+id/Button01"
+                        android:textColor="#00104C"
+                        android:background="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hostel Booking" />
+
+                    <Button
+                        android:textColor="#00104C"
+                        android:layout_margin="5dp"
+                        android:id="@+id/button1"
+                        android:background="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nightingale News" />
+
+                    <Button
+                        android:layout_margin="5dp"
+                        android:id="@+id/Button011"
+                        android:background="#ffffff"
+                        android:textColor="#00104C"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="About Us" />
+
+                    <Button
+                        android:layout_margin="5dp"
+                        android:id="@+id/button11"
+                        android:textColor="#00104C"
+                        android:background="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Contact Us" />
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
